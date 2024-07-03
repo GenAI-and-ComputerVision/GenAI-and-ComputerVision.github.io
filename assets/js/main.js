@@ -207,16 +207,16 @@ $('.navbar-toggle').on('click', function() {
     $('.page-wrap').toggleClass('active');
 });
 
-$(window).on('resize', function(){
-    var ww = $(window).width();
+// $(window).on('resize', function(){
+//     var ww = $(window).width();
 
-if(ww < 1200) {
-        console.log('khanh');
+// if(ww < 1200) {
+//         console.log('khanh');
 
-}else {
-        $('.page-wrap').removeClass('active');
-    }
-}).trigger('resize');
+// }else {
+//         $('.page-wrap').removeClass('active');
+//     }
+// }).trigger('resize');
 
 var header_height = header_main.height();
 
